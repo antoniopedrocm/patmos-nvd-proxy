@@ -1,0 +1,8 @@
+{
+  "name": "patmos-nvd-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node api/nvd.js"
+  }
+}
