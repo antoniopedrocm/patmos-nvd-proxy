@@ -2,10 +2,11 @@
   "name": "patmos-nvd-proxy",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "node api/nvd.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
