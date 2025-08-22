@@ -7,6 +7,9 @@
     "start": "node api/nvd.js"
   },
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
   }
 }
