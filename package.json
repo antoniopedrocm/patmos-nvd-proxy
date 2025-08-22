@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node api/nvd.js"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
