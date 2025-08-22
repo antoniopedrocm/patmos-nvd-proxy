@@ -1,4 +1,3 @@
-// Arquivo: vercel.json (CORRIGIDO)
 {
   "functions": {
     "api/*.js": {
