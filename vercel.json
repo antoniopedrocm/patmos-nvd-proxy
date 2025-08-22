@@ -1,7 +1,8 @@
+// Arquivo: vercel.json (CORRIGIDO)
 {
   "functions": {
     "api/*.js": {
-      "runtime": "nodejs22.x"
+      "runtime": "nodejs22" 
     }
   }
 }
