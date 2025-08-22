@@ -1,7 +1,8 @@
+// Código Correto para o arquivo vercel.json
 {
   "functions": {
     "api/*.js": {
-      "runtime": "nodejs22" 
+      "runtime": "nodejs22"
     }
   }
 }
