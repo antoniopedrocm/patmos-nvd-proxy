@@ -1,4 +1,3 @@
-// Código Correto para o arquivo vercel.json
 {
   "functions": {
     "api/*.js": {
