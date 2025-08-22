@@ -1,3 +1,4 @@
+// Forçando um novo deploy para limpar o cache global
 // api/nvd.js
 // Função serverless para proxy da API NVD no Vercel
 // Compatível com ES Modules
@@ -70,3 +71,4 @@ export default async function handler(req, res) {
     res.status(500).json({ error: 'Falha ao consultar a NVD', detail: String(err) });
   }
 }
+
