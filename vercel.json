@@ -1,7 +1,7 @@
 {
   "functions": {
-    "api/*.js": {
-      "runtime": "nodejs22"
+    "api/**/*.php": {
+      "runtime": "now-php@1.0.0"
     }
   }
 }
