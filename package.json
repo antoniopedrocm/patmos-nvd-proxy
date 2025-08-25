@@ -1,15 +1,22 @@
 {
   "name": "patmos-nvd-proxy",
   "version": "1.0.0",
+  "description": "Proxy API for NVD vulnerability database",
   "private": true,
   "type": "module",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node api/nvd.js"
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel dev"
   },
   "engines": {
     "node": "20.x"
   },
   "devDependencies": {
     "@vercel/node": "^3.0.0"
-  }
+  },
+  "keywords": ["nvd", "vulnerabilities", "cve", "security", "proxy", "api"],
+  "author": "Antonio Pedro Castro Mota",
+  "license": "MIT"
 }
